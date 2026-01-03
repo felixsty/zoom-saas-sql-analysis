@@ -1,6 +1,6 @@
 # Zoom SaaS Analysis Results
 
-This file presents the **SQL analysis results** from the cleaned dataset (`zoom_cleaned`) and explains each metric alongside visualization generated using Tablaeu.  
+This file presents the **SQL analysis results** from the cleaned dataset (`zoom_cleaned`) and explains each metric alongside visualization generated using Tableau.  
 
 ---
 
@@ -32,7 +32,7 @@ WHERE churned = 1
 GROUP BY churn_month
 ORDER BY churn_month;
 ```
-- **Visualization:** [`results/images/`](results/images/).
+- **Visualization:** [`zoom-saas-sql-analysis/results/images/`](zoom-saas-sql-analysis/results/images/)
 - **Insight:**
 
 ---
