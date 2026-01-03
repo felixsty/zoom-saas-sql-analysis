@@ -1,6 +1,7 @@
 # Zoom SaaS Analysis Results
 
-This file presents the **SQL analysis results** from the cleaned dataset (`zoom_cleaned`) and explains each metric alongside visualization generated using Tableau.  
+This file presents SQL-based analysis results derived from the cleaned dataset (`zoom_cleaned`).  
+It focuses on the calculation of core SaaS metrics using SQL, with visualizations provided separately via Tableau.
 
 ---
 
@@ -15,7 +16,6 @@ FROM zoom_cleaned
 GROUP BY signup_month
 ORDER BY signup_month;
 ```
-- **Insight:** 
 
 ---
 
@@ -31,7 +31,6 @@ WHERE churned = 1
 GROUP BY churn_month
 ORDER BY churn_month;
 ```
-- **Insight:**
 
 ---
 
@@ -47,7 +46,6 @@ WHERE churned = 0
 GROUP BY signup_month
 ORDER BY signup_month;
 ```
-- **Insight:**
 
 ---
 
@@ -59,7 +57,6 @@ SELECT
   SUM(churned) / COUNT(*) AS churn_rate
 FROM zoom_cleaned;
 ```
-- **Insight:**
 
 ---
 
@@ -75,7 +72,6 @@ SELECT
 FROM zoom_cleaned
 GROUP BY plan_type;
 ```
-- **Insight:**
 
 ---
 
@@ -91,7 +87,6 @@ SELECT
 FROM zoom_cleaned
 GROUP BY country;
 ```
-- **Insight:**
 
 ---
 
@@ -107,7 +102,6 @@ WHERE churned = 0
 GROUP BY signup_month
 ORDER BY signup_month;
 ```
-- **Insight:**
 
 ---
 
@@ -122,7 +116,6 @@ FROM zoom_cleaned
 WHERE churned = 0
 GROUP BY plan_type;
 ```
-- **Insight:**
 
 ---
 
@@ -135,4 +128,3 @@ SELECT
 FROM zoom_cleaned
 WHERE churned = 1;
 ```
-- **Insight:**
