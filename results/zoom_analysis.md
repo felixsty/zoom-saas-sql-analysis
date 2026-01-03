@@ -15,7 +15,6 @@ FROM zoom_cleaned
 GROUP BY signup_month
 ORDER BY signup_month;
 ```
-- **Visualization:** [`results/images/`](results/images/).
 - **Insight:** 
 
 ---
@@ -32,7 +31,6 @@ WHERE churned = 1
 GROUP BY churn_month
 ORDER BY churn_month;
 ```
-- **Visualization:** [`zoom-saas-sql-analysis/results/images/`](zoom-saas-sql-analysis/results/images/)
 - **Insight:**
 
 ---
@@ -49,7 +47,6 @@ WHERE churned = 0
 GROUP BY signup_month
 ORDER BY signup_month;
 ```
-- **Visualization:** [`results/images/`](results/images/).
 - **Insight:**
 
 ---
@@ -62,7 +59,6 @@ SELECT
   SUM(churned) / COUNT(*) AS churn_rate
 FROM zoom_cleaned;
 ```
-- **Visualization:** [`results/images/`](results/images/).
 - **Insight:**
 
 ---
@@ -79,7 +75,6 @@ SELECT
 FROM zoom_cleaned
 GROUP BY plan_type;
 ```
-- **Visualization:** [`results/images/`](results/images/).
 - **Insight:**
 
 ---
@@ -96,7 +91,6 @@ SELECT
 FROM zoom_cleaned
 GROUP BY country;
 ```
-- **Visualization:** [`results/images/`](results/images/).
 - **Insight:**
 
 ---
@@ -113,7 +107,6 @@ WHERE churned = 0
 GROUP BY signup_month
 ORDER BY signup_month;
 ```
-- **Visualization:** [`results/images/`](results/images/).
 - **Insight:**
 
 ---
@@ -129,7 +122,6 @@ FROM zoom_cleaned
 WHERE churned = 0
 GROUP BY plan_type;
 ```
-- **Visualization:** [`results/images/`](results/images/).
 - **Insight:**
 
 ---
@@ -143,5 +135,4 @@ SELECT
 FROM zoom_cleaned
 WHERE churned = 1;
 ```
-- **Visualization:** [`results/images/`](results/images/).
 - **Insight:**
