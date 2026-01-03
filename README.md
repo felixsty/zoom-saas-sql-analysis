@@ -38,6 +38,7 @@ All data cleaning was performed in SQL (`sql/zoom_queries.sql`) including:
 ## Analysis
 
 - SQL queries were used to analyze **user signups, churn, revenue, and lifetime metrics**.
+- All query outputs saved as images in `results/images/`. 
 - Detailed results and insights are in the separate file: [`results/zoom_analysis.md`](results/zoom_analysis.md).
 
 ---
@@ -64,6 +65,7 @@ zoom-saas-user-analysis/
 ├── sql/
 │   └── zoom_queries.sql          # SQL cleaning & analysis queries
 ├── results/
+│   └── images/                   # SQL query outputs
 │   └── zoom_analysis.md          # SQL results and insights
 └── README.md
 ```
