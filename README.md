@@ -56,14 +56,14 @@ All data cleaning was performed in SQL (`sql/zoom_queries.sql`) including:
 zoom-saas-user-analysis/
 │
 ├── python/
-│   └── zoom_data.py          # Python dataset generation
+│   └── zoom_data.py              # Python dataset generation
 ├── data/
-│   ├── zoom.csv              # Raw dataset
-│   └── zoom_cleaned.csv      # SQL-cleaned dataset
+│   ├── zoom.csv                  # Raw dataset
+│   └── zoom_cleaned.csv          # SQL-cleaned dataset
 ├── sql/
-│   └── zoom_queries.sql      # SQL cleaning & analysis queries
+│   └── zoom_queries.sql          # SQL cleaning & analysis queries
 ├── results/
-│   └── zoom_analysis.md      # SQL results and insights
+│   └── zoom_analysis.md          # SQL results and insights
 └── README.md
 
 ---
