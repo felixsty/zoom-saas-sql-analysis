@@ -13,5 +13,5 @@ SELECT
   COUNT(*) AS signups
 FROM zoom_cleaned
 ```
-- **Visualization:** results/images/
+- **Visualization:** [`results/images/`](results/images/).
 - **Insight:** 
