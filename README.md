@@ -76,4 +76,4 @@ zoom-saas-user-analysis/
 ---
 
 This repo demonstrates a **full end-to-end workflow**:  
-**data generation → data cleaning → SQL analysis → data visualization**.
+**data generation → data cleaning → SQL analysis → data visualization**
