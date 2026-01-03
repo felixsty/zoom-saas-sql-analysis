@@ -53,6 +53,7 @@ All data cleaning was performed in SQL (`sql/zoom_queries.sql`) including:
 
 ## Project Structure
 
+```
 zoom-saas-user-analysis/
 │
 ├── python/
@@ -65,6 +66,7 @@ zoom-saas-user-analysis/
 ├── results/
 │   └── zoom_analysis.md          # SQL results and insights
 └── README.md
+```
 
 ---
 
