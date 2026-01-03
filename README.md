@@ -1,4 +1,4 @@
-# Zoom SaaS User Analytics (SQL & Python & Tableau)
+# Zoom SaaS User Analytics (SQL | Python | Tableau)
 
 ## Overview
 This project simulates and analyzes a Zoom SaaS subscription dataset using **Python** for dataset generation, **SQL** for data cleaning and analysis, and **Tableau** for visualization.  
