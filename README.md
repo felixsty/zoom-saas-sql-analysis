@@ -52,7 +52,6 @@ All data cleaning was performed in SQL (`sql/zoom_queries.sql`) including:
 ---
 
 ## Project Structure
-
 ```
 zoom-saas-user-analysis/
 │
@@ -67,7 +66,6 @@ zoom-saas-user-analysis/
 │   └── zoom_analysis.md          # SQL results and insights
 └── README.md
 ```
-
 ---
 
 This repo demonstrates a **full end-to-end workflow**:  
