@@ -1,7 +1,9 @@
 # Zoom SaaS Analysis Results
 
-This file presents SQL-based analysis results derived from the cleaned dataset (`zoom_cleaned`).  
-It focuses on the calculation of core SaaS metrics using SQL, with visualizations provided separately via [Tableau](https://public.tableau.com/views/Zoom_17674242683410/ZoomSaaSAnalysisVisualization?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+This file presents SQL-based analysis results derived from the cleaned dataset (`zoom_cleaned`). It focuses on the calculation of core SaaS metrics using SQL. 
+Interactive visualizations for this analysis are available via:
+- [Tableau Public Dashboard](https://public.tableau.com/views/Zoom_17674242683410/ZoomSaaSAnalysisVisualization?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Download PDF Version](../results/Zoom_SaaS_Tableau_Dashboard.pdf)
 
 ---
 
