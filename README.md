@@ -25,7 +25,7 @@ The focus is on understanding user growth, churn behavior, and revenue metrics f
 
 ## Data Cleaning (SQL)
 
-All data cleaning was performed in SQL (`sql/zoom_queries.sql`) including:
+All data cleaning was performed in SQL (`data/zoom_cleaning.sql`) including:
 
 - Converting `start_date` and `end_date` to **DATE** type.
 - Handling empty `end_date` values for active users.
@@ -38,8 +38,8 @@ All data cleaning was performed in SQL (`sql/zoom_queries.sql`) including:
 ## Analysis
 
 - SQL queries were used to analyze **user signups, churn, revenue, and lifetime metrics**.
-- All query outputs saved as images in `results/images/`. 
-- Detailed results and insights are in the separate file: [`results/zoom_analysis.md`](results/zoom_analysis.md).
+- All query outputs are visualized using Tableau. 
+- Detailed results and insights are in the separate file: [`analysis/zoom_analysis.md`](analysis/zoom_analysis.md).
 
 ---
 
@@ -59,14 +59,18 @@ zoom-saas-user-analysis/
 │
 ├── python/
 │   └── zoom_data.py              # Python dataset generation
+|
 ├── data/
 │   ├── zoom.csv                  # Raw dataset
+|   ├── zoom_cleaning.sql         # SQL cleaning
 │   └── zoom_cleaned.csv          # SQL-cleaned dataset
+|
 ├── analysis/
-│   └── zoom_analysis.pdf         # Tableau visualization
-│   └── zoom_queries.sql          # SQL cleaning & analysis queries
+│   ├── zoom_analysis.pdf         # Tableau visualization
+│   ├── zoom_queries.sql          # SQL analysis queries
 │   └── zoom_analysis.md          # SQL results and insights
-└── README.md
+|
+└── README.md                     # Project background and overview
 ```
 
 ---
