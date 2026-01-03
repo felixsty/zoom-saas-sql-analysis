@@ -1,7 +1,7 @@
-# Zoom SaaS User Analytics (SQL & Python)
+# Zoom SaaS User Analytics (SQL & Python & Tableau)
 
 ## Overview
-This project simulates and analyzes a Zoom SaaS subscription dataset using **Python** for dataset generation and **SQL** for data cleaning and analysis.  
+This project simulates and analyzes a Zoom SaaS subscription dataset using **Python** for dataset generation, **SQL** for data cleaning and analysis, and **Tableau** for visualization.  
 The focus is on understanding user growth, churn behavior, and revenue metrics for different subscription plans and regions.
 
 ---
@@ -62,10 +62,9 @@ zoom-saas-user-analysis/
 ├── data/
 │   ├── zoom.csv                  # Raw dataset
 │   └── zoom_cleaned.csv          # SQL-cleaned dataset
-├── sql/
+├── analysis/
+│   └── zoom_analysis.pdf         # Tableau visualization
 │   └── zoom_queries.sql          # SQL cleaning & analysis queries
-├── results/
-│   └── images/                   # SQL query outputs
 │   └── zoom_analysis.md          # SQL results and insights
 └── README.md
 ```
