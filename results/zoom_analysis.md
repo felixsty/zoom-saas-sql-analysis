@@ -4,7 +4,7 @@ This file presents SQL-based analysis results derived from the cleaned dataset (
 
 Interactive visualizations for this analysis are available via:
 - [Tableau Public Dashboard](https://public.tableau.com/views/Zoom_17674242683410/ZoomSaaSAnalysisVisualization?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Download PDF Version](../results/Zoom_SaaS_Tableau_Dashboard.pdf)
+- [Download PDF Version](../results/zoom_visualization.pdf)
 
 ---
 
