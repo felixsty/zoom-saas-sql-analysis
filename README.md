@@ -1,7 +1,7 @@
 # Zoom SaaS User Analytics (SQL & Python)
 
 ## Overview
-This project simulates and analyzes a Zoom SaaS subscription dataset using **Python** for dataset generation and **SQL** for data cleaning and analysis.  
+This project simulates and analyzes a Zoom SaaS subscription dataset using **Python (Pandas & NumPy)** for dataset generation and **SQL** for data cleaning and analysis.  
 The focus is on understanding user growth, churn behavior, and revenue metrics for different subscription plans and regions.
 
 ---
